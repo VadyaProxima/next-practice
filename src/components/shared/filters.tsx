@@ -15,7 +15,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
 			<div className={className}>
 				<Title text="Фильтрация" size="sm" className="mb-5 font-bold" />
 				<div className="flex flex-col gap-4">
-					<FilterCheckbox text="Можно собирать" value="1" />
+					<FilterCheckbox text="Бестселлеры" value="1" />
 					<FilterCheckbox text="Новинки" value="2" />
 				</div>
 				<div className="mt-5 py-6 pb-7">
@@ -34,81 +34,82 @@ export const Filters: React.FC<Props> = ({ className }) => {
 				</div>
 				<CheckboxFiltersGroup
 					className="mt-5"
-					title="Формат"
+					title="Ароматы"
 					limit={6}
 					defaultItems={[
 						{
-							text: 'Сырный соус',
+							text: 'Бергамот',
 							value: '1',
 						},
 						{
-							text: 'Моццарелла',
+							text: 'Лимон',
 							value: '2',
 						},
 						{
-							text: 'Чеснок',
+							text: 'Жасмин',
 							value: '3',
 						},
 						{
-							text: 'Солённые огурчики',
+							text: 'Ландыш',
 							value: '4',
 						},
 						{
-							text: 'Красный лук',
+							text: 'Роза',
 							value: '5',
 						},
 						{
-							text: 'Томаты',
+							text: 'Нероли',
 							value: '6',
 						},
 					]}
 					items={[
 						{
-							text: 'Сырный соус',
+							text: 'Бергамот',
 							value: '1',
 						},
 						{
-							text: 'Моццарелла',
+							text: 'Лимон',
 							value: '2',
 						},
 						{
-							text: 'Чеснок',
+							text: 'Жасмин',
 							value: '3',
 						},
 						{
-							text: 'Солённые огурчики',
+							text: 'Ландыш',
 							value: '4',
 						},
 						{
-							text: 'Красный лук',
+							text: 'Роза',
 							value: '5',
 						},
 						{
-							text: 'Томаты',
+							text: 'Нероли',
 							value: '6',
 						},
+
 						{
-							text: 'Сырный соус',
+							text: 'Бергамот',
 							value: '1',
 						},
 						{
-							text: 'Моццарелла',
+							text: 'Лимон',
 							value: '2',
 						},
 						{
-							text: 'Чеснок',
+							text: 'Жасмин',
 							value: '3',
 						},
 						{
-							text: 'Солённые огурчики',
+							text: 'Ландыш',
 							value: '4',
 						},
 						{
-							text: 'Красный лук',
+							text: 'Роза',
 							value: '5',
 						},
 						{
-							text: 'Томаты',
+							text: 'Нероли',
 							value: '6',
 						},
 					]}

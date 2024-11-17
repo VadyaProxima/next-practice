@@ -12,12 +12,6 @@ interface Props {
 const cats = [
     { id: 1, name: 'Мужские духи' },
     { id: 2, name: 'Женские духи' },
-    { id: 3, name: 'Закуски' },
-    { id: 4, name: 'Коктейли' },
-    { id: 5, name: 'Кофе' },
-    { id: 6, name: 'Напитки' },
-    { id: 7, name: 'Десерты' },
-    { id: 8, name: 'Десерты' },
 ]
 
 
